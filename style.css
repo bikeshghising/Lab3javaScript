@@ -23,3 +23,9 @@ h1 {
     display:block; 
     margin:auto;
 }
+/* style for car color */
+.carColor { 
+    padding:4px 10px; 
+    border-radius:10px; 
+    color:#fff; 
+}
