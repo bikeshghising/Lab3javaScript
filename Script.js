@@ -27,3 +27,14 @@ function showStatus(msg) {
     statusEl.textContent = "";
   }, 1500);
 }
+
+// change color button
+document.getElementById("changeColorBtn").addEventListener("click", () => {
+  // simple manual switching
+  if (toyCar.color === "Red") toyCar.color = "Blue";
+  else if (toyCar.color === "Blue") toyCar.color = "Green";
+  else toyCar.color = "Red"; // restart loop
+
+  updateDisplay();
+  showStatus("Color changed to " + toyCar.color);
+});
