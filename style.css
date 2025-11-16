@@ -1,0 +1,15 @@
+/* set overall base font and bg to make it stantout more */
+body { 
+    font-family: Arial; 
+    padding: 20px; 
+    background:#eee; 
+}
+/* main white container */
+.card { 
+    background:#fff; 
+    padding:15px; width:300px; 
+    margin:auto; }
+    
+h1 { 
+    text-align:center; 
+}
