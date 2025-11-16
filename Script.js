@@ -38,3 +38,13 @@ document.getElementById("changeColorBtn").addEventListener("click", () => {
   updateDisplay();
   showStatus("Color changed to " + toyCar.color);
 });
+
+// increase price button
+document.getElementById("increasePriceBtn").addEventListener("click", () => {
+  toyCar.price = toyCar.price + 1;
+  updateDisplay();
+  showStatus("Price increased to $" + toyCar.price.toFixed(2));
+});
+
+// load default display
+updateDisplay();
