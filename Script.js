@@ -20,3 +20,10 @@ function updateDisplay() {
   else if (toyCar.color === "Blue") colorEl.style.background = "blue";
   else if (toyCar.color === "Green") colorEl.style.background = "green";
 }
+// temporary message
+function showStatus(msg) {
+  statusEl.textContent = msg;
+  setTimeout(() => {
+    statusEl.textContent = "";
+  }, 1500);
+}
