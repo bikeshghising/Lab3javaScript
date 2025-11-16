@@ -13,3 +13,13 @@ body {
 h1 { 
     text-align:center; 
 }
+
+.carDisplay { 
+    text-align:center; 
+}
+/* to make the image smaller and center it */
+.carDisplay img { 
+    width:120px; 
+    display:block; 
+    margin:auto;
+}
